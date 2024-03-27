@@ -1,0 +1,33 @@
+{
+    "name": "Unity.Beamable.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Beamable.Config",
+        "Beamable.Service",
+        "Beamable.Platform",
+        "Beamable.Pooling",
+        "Beamable.JsonSerializable",
+        "Beamable.SmallerJSON",
+        "Beamable.Coroutines",
+        "Unity.Addressables.Editor",
+        "Unity.TextMeshPro",
+        "Unity.Beamable",
+        "Unity.Beamable.Runtime.Common",
+        "Unity.EditorCoroutines.Editor",
+        "Beamable.UnityUIExtensions",
+        "Beamable.ConsoleCommands"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Beamable.NetMQ.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

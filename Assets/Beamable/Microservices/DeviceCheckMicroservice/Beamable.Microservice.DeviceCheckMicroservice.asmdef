@@ -1,0 +1,29 @@
+{
+   "references":[
+     "Unity.Beamable.Runtime.Common",
+    "Unity.Beamable.Server.Runtime",
+    "Unity.Beamable.Server.Runtime.Shared",
+    "Unity.Beamable",
+    "Beamable.SmallerJSON",
+    "Unity.Beamable.Server.Runtime.Common",
+    "Unity.Beamable.Server.Runtime.Mocks",
+    "Unity.Beamable.Customer.Common"
+  ],
+  "name":"Beamable.Microservice.DeviceCheckMicroservice",
+  "autoReferenced":false,
+  "precompiledReferences":[
+     "Newtonsoft.Json.dll",
+    "System.IdentityModel.Tokens.Jwt.dll",
+    "System.Text.Json.dll",
+    "Microsoft.IdentityModel.JsonWebTokens.dll",
+    "System.Text.Encodings.Web.dll",
+    "Microsoft.IdentityModel.Abstractions.dll",
+    "Microsoft.Bcl.AsyncInterfaces.dll",
+    "Microsoft.IdentityModel.Logging.dll",
+    "Microsoft.IdentityModel.Tokens.dll",
+    "Microsoft.Bcl.AsyncInterfaces.dll"
+  ],
+  "includePlatforms":[
+     "Editor"
+  ]
+}

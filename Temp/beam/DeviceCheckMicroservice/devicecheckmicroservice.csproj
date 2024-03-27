@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+            <PropertyGroup>
+               <DefineConstants>DB_MICROSERVICE;BEAMABLE_MICROSERVICE;BEAMABLE_IGNORE_MONGO_MOCKS</DefineConstants>
+               <OutputType>Exe</OutputType>
+               <TargetFramework>net6.0</TargetFramework>
+            </PropertyGroup>
+
+	            <PropertyGroup>
+	               <NoWarn>1591</NoWarn>
+				   <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	            </PropertyGroup>
+
+
+            <ItemGroup>
+               <Reference Include="BeamableMicroserviceBase">
+                  <HintPath>/app/BeamableMicroserviceBase.dll</HintPath>
+<SpecificVersion>False</SpecificVersion>
+               </Reference>
+               <Reference Include="Beamable.Common">
+                  <HintPath>/src/lib/Unity.Beamable.Runtime.Common.dll</HintPath>
+<SpecificVersion>False</SpecificVersion>
+               </Reference>
+               <Reference Include="Beamable.Server">
+                  <HintPath>/src/lib/Beamable.Server.dll</HintPath>
+<SpecificVersion>False</SpecificVersion>
+               </Reference>
+               <Reference Include="Beamable.Server.Common">
+                  <HintPath>/src/lib/Beamable.Server.Common.dll</HintPath>
+<SpecificVersion>False</SpecificVersion>
+               </Reference>
+               <Reference Include="UnityEngine">
+                  <HintPath>/src/lib/UnityEngine.dll</HintPath>
+<SpecificVersion>False</SpecificVersion>
+               </Reference>
+
+            </ItemGroup>
+            <ItemGroup>
+               <Reference Include="Newtonsoft.Json">
+                  <HintPath>./libdll/Newtonsoft.Json.dll</HintPath>
+               </Reference>
+      <Reference Include="System.IdentityModel.Tokens.Jwt">
+                  <HintPath>./libdll/System.IdentityModel.Tokens.Jwt.dll</HintPath>
+               </Reference>
+      <Reference Include="System.Text.Json">
+                  <HintPath>./libdll/System.Text.Json.dll</HintPath>
+               </Reference>
+      <Reference Include="Microsoft.IdentityModel.JsonWebTokens">
+                  <HintPath>./libdll/Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+               </Reference>
+      <Reference Include="System.Text.Encodings.Web">
+                  <HintPath>./libdll/System.Text.Encodings.Web.dll</HintPath>
+               </Reference>
+      <Reference Include="Microsoft.IdentityModel.Abstractions">
+                  <HintPath>./libdll/Microsoft.IdentityModel.Abstractions.dll</HintPath>
+               </Reference>
+      <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+                  <HintPath>./libdll/Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+               </Reference>
+      <Reference Include="Microsoft.IdentityModel.Logging">
+                  <HintPath>./libdll/Microsoft.IdentityModel.Logging.dll</HintPath>
+               </Reference>
+      <Reference Include="Microsoft.IdentityModel.Tokens">
+                  <HintPath>./libdll/Microsoft.IdentityModel.Tokens.dll</HintPath>
+               </Reference>
+            </ItemGroup>
+            </Project>
+            

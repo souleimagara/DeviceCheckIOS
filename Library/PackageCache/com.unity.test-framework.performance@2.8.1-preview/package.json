@@ -1,0 +1,27 @@
+{
+  "name": "com.unity.test-framework.performance",
+  "displayName": "Performance testing API",
+  "version": "2.8.1-preview",
+  "unity": "2019.3",
+  "unityRelease": "0a10",
+  "description": "Extension to the Unity Test framework package. Adds performance testing capabilities and collects configuration metadata.",
+  "keywords": [
+    "performance",
+    "test"
+  ],
+  "dependencies": {
+    "com.unity.test-framework": "1.1.0",
+    "com.unity.modules.jsonserialize": "1.0.0"
+  },
+  "_upm": {
+    "changelog": "Removed setting up date when building player. It will set up at the beginning of the run."
+  },
+  "upmCi": {
+    "footprint": "cc13522d5bb624865a48e0b9f8af06f0f1284faa"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.test-framework.performance.git",
+    "type": "git",
+    "revision": "c2bbc1cd387e77b65fce8ac359fc8c607b25f80e"
+  }
+}

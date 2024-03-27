@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Beamable.Customer.MicroserviceClients", "Unity.Beamable.Customer.MicroserviceClients.csproj", "{7361FA85-6227-C458-6C24-9ED7BE873290}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beamable.Microservice.DeviceCheckMicroservice", "Beamable.Microservice.DeviceCheckMicroservice.csproj", "{DFCCFA2F-E965-1DEC-1878-FEB62F33E72E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{1571A419-2021-2C23-8156-4FAC413B03C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Beamable.Customer.Common", "Unity.Beamable.Customer.Common.csproj", "{181C0239-9D00-366A-5ED0-2710E06C7658}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7361FA85-6227-C458-6C24-9ED7BE873290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7361FA85-6227-C458-6C24-9ED7BE873290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7361FA85-6227-C458-6C24-9ED7BE873290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7361FA85-6227-C458-6C24-9ED7BE873290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFCCFA2F-E965-1DEC-1878-FEB62F33E72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCCFA2F-E965-1DEC-1878-FEB62F33E72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCCFA2F-E965-1DEC-1878-FEB62F33E72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCCFA2F-E965-1DEC-1878-FEB62F33E72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1571A419-2021-2C23-8156-4FAC413B03C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1571A419-2021-2C23-8156-4FAC413B03C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1571A419-2021-2C23-8156-4FAC413B03C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1571A419-2021-2C23-8156-4FAC413B03C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{181C0239-9D00-366A-5ED0-2710E06C7658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181C0239-9D00-366A-5ED0-2710E06C7658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181C0239-9D00-366A-5ED0-2710E06C7658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181C0239-9D00-366A-5ED0-2710E06C7658}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
